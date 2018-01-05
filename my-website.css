@@ -1,0 +1,196 @@
+body {
+    position: relative;
+}
+
+a {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: "futura-pt";
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 0;
+    line-height: 1em;
+}
+
+.nav-link { 
+    font-size: 13px;
+    color: gray;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.jumbotron {
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 37.5px;
+    width: 100%;
+} 
+
+
+#jumbotron-top-about{
+    background-image: url("img/balloon-water.png");
+}
+
+#jumbtron-top-employers{
+    background-image: url("img/me1.png");
+    margin-bottom: 0;
+    min-height: 800px; 
+}
+
+#jumbtron-top-connect {
+    background-image: url("img/collaboration.png");
+}
+
+
+#jumbtron-bottom {
+    background-image: url("img/red.png");
+    min-height: 150px;
+}
+
+
+#jumbtron-footer{
+    margin: 15px 0 0 0;
+    background-color: black;
+    clear: both;
+    text-align: center;
+}
+
+#contact-me {
+    color: white;
+    font-size: 80px;
+}
+
+#one {
+    margin-top: 15px;
+}
+
+.vertical-center {
+  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.text-align-center {
+    text-align: center; 
+}
+
+.intro {
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:100;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 37.5px;
+}
+
+#about {
+    margin-top: 12.5px;
+    font-size: 16px;
+}
+
+.btn {
+    border-color: darkgrey;
+}
+
+.btn:hover {
+    color: grey;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px; 
+    width: 25rem;
+    font-family:Arial Narrow, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card a {
+    font-size: 14.5px;                
+    color: black;
+    font-family:Arial Narrow, sans-serif;
+}
+
+.card a:hover {
+    color: gray;
+}
+
+#more-about {
+    width:100%;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2%; 
+}
+
+.employer-link {
+    text-align: center;
+    margin-bottom:10px;
+}
+
+#resume-link a {
+    color: gray;
+    font-size: 13px;
+}
+
+#github-link a {
+    color: gray;
+    font-size: 11.5px;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+#tie-photo {
+    width: 50%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #3395C4;
+    color: white;
+}
+
+.fa-instagram {
+    background: #4178A0;
+    color: white;
+}
+
+#created-by {
+    margin-top: 10px;
+}
+
