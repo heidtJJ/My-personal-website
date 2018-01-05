@@ -36,7 +36,7 @@ a {
     background-size: cover;
     margin-bottom: 37.5px;
     width: 100%;
-} 
+}
 
 
 #jumbotron-top-about{
@@ -46,7 +46,7 @@ a {
 #jumbtron-top-employers{
     background-image: url("img/me1.png");
     margin-bottom: 0;
-    min-height: 800px; 
+    min-height: 820px; 
 }
 
 #jumbtron-top-connect {
