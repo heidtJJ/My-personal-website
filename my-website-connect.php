@@ -24,7 +24,6 @@
             $error = '<div class="alert alert-danger" role="alert">Oh snap! There were error(s) in your form:<br>'.$error.'</div>';
         }
         else{
-            
             $emailTo = "jaredjheidt@gmail.com";
             $subject = $_POST["subject"];
             $content = $_POST["text-area"];
